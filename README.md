@@ -15,19 +15,19 @@ Aplikasi desktop sederhana berbasis JavaFX dan Maven untuk pencatatan inventaris
 ```text
 src/main/
 ├── java/kelas/
-│   ├── MainApp.java                 # Entry point aplikasi JavaFX
-│   ├── Navigator.java               # Pengatur perpindahan halaman (Scene root)
+│   ├── MainApp.java               
+│   ├── Navigator.java               
 │   ├── controller/
-│   │   ├── FormController.java      # Logika form input & FileChooser gambar
-│   │   ├── DaftarController.java    # Logika TableView, pencarian, filter & hapus
-│   │   └── DetailController.java    # Logika halaman detail produk
+│   │   ├── FormController.java      
+│   │   ├── DaftarController.java    
+│   │   └── DetailController.java    
 │   ├── data/
-│   │   └── DataProduk.java          # Penyimpanan sementara di RAM (ObservableList)
+│   │   └── DataProduk.java         
 │   └── model/
-│       └── Produk.java              # Model objek produk, enkapsulasi & validasi
+│       └── Produk.java              
 └── resources/kelas/
-    ├── form.fxml                    # Layout halaman tambah produk
-    ├── daftar.fxml                  # Layout halaman tabel daftar produk
-    ├── detail.fxml                  # Layout halaman detail produk
+    ├── form.fxml                    
+    ├── daftar.fxml                  
+    ├── detail.fxml                  
     └── styles/
-        └── app.css                  # Stylesheet komponen UI
+        └── app.css                  
