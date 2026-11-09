@@ -10,6 +10,14 @@ Aplikasi desktop sederhana berbasis JavaFX dan Maven untuk pencatatan inventaris
 * **Pencarian & Filter**: Mencari produk berdasarkan nama atau kode melalui tombol **Cari**, serta menyaring daftar berdasarkan kategori. Tersedia juga opsi *checkbox* untuk menyembunyikan/menampilkan kolom harga dan gambar.
 * **Detail Produk**: Menampilkan informasi lengkap dari objek `Produk` yang dipilih pada tabel beserta pratinjau gambar ukuran penuh dan format mata uang Rupiah (`id-ID`).
 
+## Tampilan
+<img width="1917" height="1135" alt="Screenshot 2026-11-09 202216" src="https://github.com/user-attachments/assets/3a969f66-29c7-4320-b39c-ce57f011dbe4" />
+<img width="1915" height="1136" alt="Screenshot 2026-11-09 202240" src="https://github.com/user-attachments/assets/d2d9dd59-cade-4047-8863-72bdc2c18278" />
+<img width="1917" height="1135" alt="Screenshot 2026-11-09 202247" src="https://github.com/user-attachments/assets/5e104e4a-fdcd-4862-a570-120bf4cece6a" />
+
+
+
+
 ## Struktur Proyek
 
 ```text
